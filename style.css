@@ -1,10 +1,48 @@
 *{
-    padding:0;
+    /* padding:0;
     margin:0;
     justify-content:center;
-    align-items:center;
+    align-items:center; */
+}
+body{
+  background-color: #F59467;
+}
+.center{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#img-div{
+  width: 35vw;
+  height: 47vw;
+}
+#web_title{
+  position: absolute;
+  font-family: cursive;
+  font-size: 2vw;
+  color:#362016;
+  text-shadow: 0 0px 0.1vw #362016;
+  left: 1vw;
+  margin-top: 0.5vw;
+  text-align: center;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 #image{
-    width:24vw;
-    height:24vw;
+  margin-left: 5vw;
+  margin-top: 0.9vw;
+}
+#tribute-info{
+  position: absolute;
+  text-align: center;
+  margin-top: 22vw;
+  font-family: cursive;
+  color:#362016;
+}
+caption {
+  display: table-caption;
+  text-align: center;
+  position:absolute;
+  margin-top: 40vw;
 }
